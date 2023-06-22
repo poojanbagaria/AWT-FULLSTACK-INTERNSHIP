@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>div{  height: 200px;
+                width: 200px;
+                transition: 3s;
+                font-size: 25px;
+                font-weight: bold;
+                color: black;
+                background-color: rgb(150, 150, 150);
+}
+#translatediv:hover{
+    -webkit-transform:translate(100px,100px);
+    -moz-transform: translate(100px,100px);
+    -o-transform: translate(100px,100px);
+    transform: translate(100px,100px);
+    background-color: aqua;
+    color: rgb(145, 118, 69);
+}
+#rotatediv:hover{
+    -webkit-transform:rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background-color: blueviolet;
+    color: rgb(0, 83, 160);
+}
+
+
+#rotatediv3d:hover{
+    -webkit-transform:rotate3d(1,1,0,360deg);
+    -moz-transform: rotate3d(1,1,0,360deg);
+    -o-transform: rotate3d(1,1,0,360deg);
+    transform: rotate3d(1,1,0,360deg);
+    background-color: black;
+    color: rgb(104, 28, 47);
+}
+#skewdiv:hover{
+    -webkit-transform:skew(45deg);
+    -moz-transform: skew(45deg);
+    -o-transform: skew(45deg);
+    transform: skew(45deg);
+    background-color:  pink;
+    color:  black;
+}
+
+
+#scalediv:hover{
+    -webkit-transform:scale(1,5.0.5);
+    -moz-transform: scale(1,5.0.5);
+    -o-transform: scale(1,5.0.5);
+    transform: scale(1,5.0.5);
+    background-color:  rgb(85, 78, 110);
+    color:  rgb(60, 123, 160);
+}
+#opacitydiv:hover{
+    
+    background-color: rgb(143, 154, 163);
+    opacity: 0.8;
+
+}
+#rgbadiv:hover{
+    background-color: rgba(138, 93, 114, 0.5);
+}
+#boxshadowdiv:hover{
+    box-shadow: 10px 10px 30px rgb(255, 0, 0);
+}
+#textshadowdiv{
+    text-shadow: 3px 3px 3px rgb(32, 83, 81);
+}
+#borderRadiusdiv:hover{ border-radius: 40%;
+    
+}
+#overflowdiv{overflow: auto;}
+    </style>
+    
+</head>
+<body>
+    <div id="translatediv">translate</div>
+    <div id="rotatediv">rotate</div>
+    <div id="rotatediv3d">rotate 3d</div>
+    <div id="skewdiv">skew</div>
+    <div id="scalediv">scale</div>
+    <div id="opacitydiv">opacity </div>
+    <div id="rgbadiv">rgba </div>
+    <div id="boxshadowdiv">box shadow</div>
+    <div id=" textshadowdiv">text shadow</div>
+    <div id="borderRadiusdiv">border Radius</div>
+    <div id="overflowdiv">over flow</div>
+    
+    
+    
+</body>
+</html>
